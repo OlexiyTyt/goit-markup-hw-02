@@ -1,0 +1,106 @@
+ul {
+  list-style: none;
+}
+
+/* #212121  колір основного тексту*/
+
+/* #757575 колір вторинного тексту */
+
+/* #FFFFFF колір тексту кнопок */
+
+/* #2196F3 колір фону кнопок */
+
+/* #FFFFFF колір основного фону сайту */
+
+/* #F5F4FA  Колір  вторинного фону сайту */
+
+/* #2F303A Колір фону хедера та футера */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --header-background-color: #2f303a;
+  --adress-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/* logo */
+.logo {
+  color: var(--primary-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-text-color);
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--primary-text-color);
+}
+
+/* adress */
+.adress .link {
+  color: var(--secondary-text-color);
+}
+
+.adress .footer-link {
+  color: var(--adress-text-color);
+}
+
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-text-color);
+}
+/* hero */
+.hero {
+  background-color: var(--header-background-color);
+}
+.hero-title {
+  color: #ffffff;
+}
+
+/* section */
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* benefits */
+
+.benefits-list .title {
+  color: var(--primary-text-color);
+}
+
+.benefits-list .text {
+  color: var(--secondary-text-color);
+}
+
+/* coworkers list */
+.coworkers-list .title {
+  color: var(--primary-text-color);
+}
+
+.coworkers-list .text {
+  color: var(--secondary-text-color);
+}
+
+/* button */
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+}
