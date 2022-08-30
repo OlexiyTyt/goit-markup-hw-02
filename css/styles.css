@@ -47,6 +47,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+.site-nav .link:hover,
+.site-nav .link:focus,
+.link-current,
 .address .link:hover,
 .address .link:focus,
 .site-nav .link,
@@ -71,11 +74,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.link-current {
-  color: var(--accent-text-color);
-}
 .site-nav .link,
 .link-current:hover,
 .link-current:focus {
